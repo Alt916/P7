@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/P7/static/css/main.e509f841.css",
+    "main.js": "/P7/static/js/main.f1d4bc74.js",
+    "static/js/787.0ce615c0.chunk.js": "/P7/static/js/787.0ce615c0.chunk.js",
+    "static/media/kalen-emsley-Bkci_8qcdvQ-unsplash 2.png": "/P7/static/media/kalen-emsley-Bkci_8qcdvQ-unsplash 2.99f7812e0a8dc0973adc.png",
+    "static/media/Section 1.png": "/P7/static/media/Section 1.0b3373d85749b68829c5.png",
+    "service-worker.js": "/P7/service-worker.js",
+    "index.html": "/P7/index.html",
+    "static/media/Vector.svg": "/P7/static/media/Vector.4a0d3650fa868343d6697607ac04673f.svg",
+    "main.e509f841.css.map": "/P7/static/css/main.e509f841.css.map",
+    "main.f1d4bc74.js.map": "/P7/static/js/main.f1d4bc74.js.map",
+    "787.0ce615c0.chunk.js.map": "/P7/static/js/787.0ce615c0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e509f841.css",
+    "static/js/main.f1d4bc74.js"
+  ]
+}
