@@ -1,0 +1,9 @@
+.accordion-container {
+  margin: 0rem 8rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .accordion-container {
+    margin: 0rem 3rem;
+  }
+}

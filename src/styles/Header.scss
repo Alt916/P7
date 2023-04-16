@@ -1,0 +1,42 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Anton", sans-serif;
+  margin: 5rem 0rem;
+
+  nav ul.nav-links {
+    display: flex;
+    gap: 10px;
+  }
+
+  nav ul.nav-links li {
+    padding: 0 10px;
+    list-style: none;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #ff6060;
+    font-size: 1.7rem;
+    cursor: pointer;
+
+    &:hover {
+      border-bottom: 2px solid #ff6060;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  header {
+    margin: 0;
+
+    img {
+      width: 4rem;
+      padding: 1rem;
+    }
+    nav a {
+      font-size: 12px;
+      gap: 0;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 20rem;
+  color: #ff6060;
+
+  h1 {
+    font-size: 10rem;
+    margin: 1rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: #ff6060;
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .not-found {
+    h1 {
+      font-size: 5rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+
+    a {
+      font-size: 1rem;
+      margin-top: 5rem;
+    }
+  }
+}

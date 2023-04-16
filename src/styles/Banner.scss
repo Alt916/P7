@@ -1,0 +1,41 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 220px;
+  width: 80%;
+  position: relative;
+  margin: 50px auto;
+  border-radius: 25px;
+  background-color: black;
+}
+
+.banner img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+  opacity: 0.7;
+}
+
+.banner h1 {
+  font-size: 48px;
+  font-weight: 500;
+  width: 80%;
+  text-align: center;
+  position: absolute;
+  margin: 0;
+  color: white;
+}
+
+@media only screen and (max-width: 800px) {
+  .banner {
+    height: 5rem;
+    width: 84%;
+    margin: 1rem auto;
+  }
+
+  .banner h1 {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,32 @@
+.accordion {
+  margin: 1rem 0;
+}
+
+.accordion-title {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ff6060;
+  padding: 10px;
+  border-radius: 5px 5px 5px 5px;
+  color: #fff;
+}
+.accordion-text {
+  color: #ff6060;
+}
+.accordion-content {
+  background-color: #f6f6f6;
+  padding: 1rem;
+  margin: 0;
+  border-radius: 5px 5px 5px 5px;
+  text-align: left;
+}
+
+@media only screen and (max-width: 800px) {
+  .accordion-text {
+    font-size: 12px;
+  }
+  .accordion-title {
+    padding: 4px;
+    margin: 0;
+  }
+}
