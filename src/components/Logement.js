@@ -44,7 +44,7 @@ function Logement() {
             <img
               className="property-image"
               src={property.pictures[currentIndex]}
-              alt={`Image ${currentIndex + 1} de ${property.title}`}
+              alt={` ${currentIndex + 1} de ${property.title}`}
             />
             <div className="image-counter">
               {currentIndex + 1}/{property.pictures.length}
@@ -72,11 +72,9 @@ function Logement() {
                 <img
                   className="user-picture"
                   src={property.host.picture}
-                  alt={`Photo de ${property.host.name}`}
+                  alt={` ${property.host.name}`}
                 />
               </div>
-              <div className="user-infos">
-                <div className="property-rating">
                   <div className="rating">
                     {[...Array(5)].map((star, index) => {
                       const filled = index < property.rating;
@@ -92,10 +90,7 @@ function Logement() {
                     })}
                   </div>
                 </div>
-
               </div>
-            </div>
-          </div>
           <div className="property-band">
   <div className="accordion-container">
     <Accordion title="Description" textArray={[property.description]} />
